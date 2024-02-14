@@ -31,7 +31,7 @@ public class API_feed {
     }
 
     private static class API_async extends AsyncTask<String, Void, String> {
-        private final String client_id = "391a795e9a804ff4be3235120211006";
+        private final String client_id = "";
         private final String api_url = "https://api.weatherapi.com/v1/";
 
         private final WeakReference<Weather_Activity> weak_ref;
