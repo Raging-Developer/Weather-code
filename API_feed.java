@@ -43,7 +43,7 @@ public class API_feed {
         @Override
         protected String doInBackground(String... params) {
             try {
-                //https://api.weatherapi.com/v1/forecast.json?key=391a795e9a804ff4be3235120211006&q=M25&days=7
+                //https://api.weatherapi.com/v1/forecast.json?key= =M25&days=7
                 URL url = new URL(api_url + "forecast.json?key=" + client_id + "&q=" + params[0] + "&days=5");
                 HttpURLConnection conn = (HttpURLConnection) url.openConnection();
                 conn.connect();
